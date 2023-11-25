@@ -12,7 +12,7 @@
 }
 
 .project:hover {
-	background: #fafafa;
+	background: var(--hover-background);
 	opacity: 1;
 	transition: background-color 0.3s ease-in-out;
 }
@@ -63,6 +63,13 @@
 .project-link-text {
 	padding-left: 20px;
 	font-weight: 700;
+}
+
+.project-links {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding-top: 20px;
 }
 
 @media (max-width: 600px) {

@@ -73,6 +73,7 @@ const About = () => {
 					<div className="page-footer">
 						<Footer />
 					</div>
+					
 				</div>
 			</div>
 		</React.Fragment>

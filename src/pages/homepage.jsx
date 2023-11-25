@@ -4,17 +4,17 @@ import { Helmet } from "react-helmet";
 import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-	faTwitter,
 	faGithub,
-	faStackOverflow,
 	faInstagram,
+	faMedium,
+	faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 
 import Logo from "../components/common/logo";
 import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
 import Article from "../components/homepage/article";
-import Works from "../components/homepage/works";
+// import Works from "../components/homepage/works";
 import AllProjects from "../components/projects/allProjects";
 
 import INFO from "../data/user";
@@ -115,12 +115,12 @@ const Homepage = () => {
 
 						<div className="homepage-socials">
 							<a
-								href={INFO.socials.twitter}
+								href={INFO.socials.Medium}
 								target="_blank"
 								rel="noreferrer"
 							>
 								<FontAwesomeIcon
-									icon={faTwitter}
+									icon={faMedium}
 									className="homepage-social-icon"
 								/>
 							</a>
@@ -135,12 +135,12 @@ const Homepage = () => {
 								/>
 							</a>
 							<a
-								href={INFO.socials.stackoverflow}
+								href={INFO.socials.linkedin}
 								target="_blank"
 								rel="noreferrer"
 							>
 								<FontAwesomeIcon
-									icon={faStackOverflow}
+									icon={faLinkedin}
 									className="homepage-social-icon"
 								/>
 							</a>
@@ -188,9 +188,9 @@ const Homepage = () => {
 								))}
 							</div>
 
-							<div className="homepage-works">
+							{/* <div className="homepage-works">
 								<Works />
-							</div>
+							</div> */}
 						</div>
 
 						<div className="page-footer">
