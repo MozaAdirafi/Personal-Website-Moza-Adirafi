@@ -16,7 +16,7 @@ function article_2() {
 		title: "Mastering Design: Wireframes, Mockups, Usability Heuristics, and Best Practices",
 		description:
 			"This article discusses important aspects of design, like wireframes and mockups, which help plan and visualize designs. It also talks about following good design rules to make things easy for people to use. The article suggests trying different design ideas to make users happy and gives examples of how these ideas were used in a design project. It's a helpful guide for designers to create designs that people like and find easy to use.",
-		link: "/aaa",
+		link: "https://medium.com/@mozaadirafi26/when-it-comes-to-creating-a-successful-design-project-wireframes-and-mockups-are-the-unsung-heroes-2a45c05d5e0",
 	};
 }
 
