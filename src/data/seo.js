@@ -2,15 +2,22 @@ const SEO = [
 	{
 		page: "home",
 		description:
-			"I'm a Computer Science undergraduate at the University of Indonesia, specializing in frontend development. I have experience with React and a strong passion for crafting user-friendly web interfaces. I enjoy staying updated with the latest frontend trends and techniques. I'm eager to learn and grow in the world of web development and software engineering",
+			"Fresh graduate with a double degree in Computer Science from Universitas Indonesia and Information Technology from University of Queensland. Specializing in software development with experience in both frontend and backend development, passionate about crafting user-friendly applications",
 		keywords: ["Moza", "Moza Adirafi", "Moza Adirafi Satria", "Moza Adirafi Satria Jaka"],
 	},
 
 	{
 		page: "about",
 		description:
-			"I'm a Computer Science undergraduate at the University of Indonesia, specializing in frontend development. I have experience with React and a strong passion for crafting user-friendly web interfaces. I enjoy staying updated with the latest frontend trends and techniques. I'm eager to learn and grow in the world of web development and software engineering",
+			"Fresh graduate with a double degree in Computer Science from Universitas Indonesia and Information Technology from University of Queensland. Specializing in software development with experience in both frontend and backend development, passionate about crafting user-friendly applications",
 			keywords: ["Moza", "Moza Adirafi", "Moza Adirafi Satria", "Moza Adirafi Satria Jaka"],
+	},
+
+	{
+		page: "experience",
+		description:
+			"Professional experience including software engineering internships at Ajaib and Sprint Asia, and cloud computing training at Bangkit Academy. Skilled in backend development, micro-frontend architecture, and cloud infrastructure.",
+		keywords: ["Moza", "Moza Adirafi", "Experience", "Software Engineer", "Ajaib", "Sprint Asia", "Bangkit Academy"],
 	},
 
 	{

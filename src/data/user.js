@@ -9,14 +9,13 @@ const INFO = {
 	socials: {
 		github: "https://github.com/MozaAdirafi",
 		linkedin: "https://www.linkedin.com/in/moza-adirafi-580954234/",
-		instagram: "https://www.instagram.com/moza.adirafi/",
 		Medium: "https://medium.com/@mozaadirafi26",
 	},
 
 	homepage: {
-		title: "Undergraduate Student at University of Indonesia",
+		title: "Fresh Graduate with Double Degree from Universitas Indonesia and University of Queensland",
 		description:
-			"I'm a Computer Science undergraduate at the University of Indonesia, specializing in frontend development. I have experience with React and a strong passion for crafting user-friendly web interfaces. I enjoy staying updated with the latest frontend trends and techniques. I'm eager to learn and grow in the world of web development and software engineering",
+			"I'm a fresh graduate with a double degree in Computer Science from Universitas Indonesia and Information Technology from University of Queensland. I specialize in software development with experience in both frontend and backend development. I have a strong passion for crafting user-friendly applications and enjoy staying updated with the latest technology trends and techniques. I'm eager to learn and grow in the world of software engineering",
 	},
 
 	about: {
@@ -25,6 +24,43 @@ const INFO = {
 			" I've been involved in a variety of projects over the years, and I take pride in the progress I've achieved. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've been a part of, please don't hesitate to examine the code and propose any improvements or enhancements you may have in mind. Collaboration is a fantastic way to learn and evolve, and I'm always open to fresh ideas and feedback.",
 	},
 
+	experience: [
+		{
+			company: "Ajaib",
+			position: "Software Engineering Intern - Money BU",
+			period: "Sep 2025 - Dec 2025",
+			location: "Jakarta, Indonesia",
+			responsibilities: [
+				"Developed backend services for savings products using Spring Boot, MySQL/PostgreSQL, and Kafka, working with service-to-service communication via Feign clients and Jenkins for CI/CD pipelines.",
+				"Developed a transfer limit management module and transaction alert mechanisms to support transaction monitoring and risk controls.",
+				"Built a multi-channel notification system supporting email and push notifications for user and transaction events.",
+				"Implemented Internal Tools, an internal dashboard for monitoring user accounts, transactions, notifications, and system configurations."
+			]
+		},
+		{
+			company: "Sprint Asia",
+			position: "Software Engineering Intern",
+			period: "Jan 2024 - Jul 2024",
+			location: "Jakarta, Indonesia",
+			responsibilities: [
+				"Implemented micro-frontend architecture using React.js for key company products.",
+				"Developed and published custom frontend components as an NPM package, integrating company API services with AXIOS.",
+				"Created and maintained the company's landing pages using WordPress."
+			]
+		},
+		{
+			company: "Bangkit Academy",
+			position: "Cloud Computing Cohort",
+			period: "Jan 2024 - Jun 2024",
+			location: "Remote",
+			responsibilities: [
+				"Developed Gestura, a capstone project with a team of seven, an application designed to teach users sign language and encourage them to practice it interactively.",
+				"Set up a cloud infrastructure for Bangkit's Capstone Group Project using Google Cloud Platform's Cloud Run, Compute Engine, Cloud SQL, and Cloud Storage for service deployment.",
+				"Integrated a machine learning model into Express.js-based services using TensorFlow.js for Bangkit's Capstone Group Project."
+			]
+		}
+	],
+
 	articles: {
 		title: "This is a space where I share my passion for exploring new possibilities and pushing the boundaries.",
 		description:
@@ -32,6 +68,50 @@ const INFO = {
 	},
 
 	projects: [
+		{
+			title: "Ajaib Savings",
+			description:
+				"Developed backend components for savings products using Spring Boot, Kafka, and relational databases, including transaction alerts, transfer limit handling, notification delivery, and internal monitoring tools.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/java/java.png",
+			linkText: "View Project",
+			link: "",
+			link2: "",
+			linkText2: "View Repository",
+		},
+
+		{
+			title: "TableTap",
+			description:
+				"TableTap is designed for a streamlined restaurant platform for digital menus, QR-code ordering, and streamlined order management. Built with Next.js and Firebase, featuring admin dashboards, real-time updates, and responsive interfaces to improve customer experience and operational efficiency",
+			logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png",
+			linkText: "View Project",
+			link: "https://tabletap-rust.vercel.app/",
+			link2: "https://github.com/MozaAdirafi/tabletap",
+			linkText2: "View Repository",
+		},
+
+		{
+			title: "Desa Tawangharjo",
+			description:
+				"Developed a website for Desa Tawangharjo (NextJs & Firebase) to improve digital accessibility and community engagement. The platform provides village information, public services, local news and others.",
+			logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png",
+			linkText: "View Project",
+			link: "https://www.tawangharjo.com/",
+			link2: "",
+			linkText2: "View Repository",
+		},
+
+		{
+			title: "Sandeza Bills",
+			description:
+				"Built an interactive dashboard for Sprint Asia's billing service using React.js micro-frontends with Tailwind, integrated with AXIOS, ensuring seamless API interactions. The app is built, deployed, and updated dynamically in the company server using Jenkins, providing reliable and scalable performance.",
+			logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png",
+			linkText: "View Project",
+			link: "",
+			link2: "",
+			linkText2: "View Repository",
+		},
+
 		{
 			title: "Mooking",
 			description:
