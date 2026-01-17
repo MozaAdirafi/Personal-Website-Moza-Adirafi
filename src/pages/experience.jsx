@@ -43,7 +43,14 @@ const ExperiencePage = () => {
 						</div>
 
 						<div className="subtitle experience-subtitle">
-							Throughout my career, I've had the opportunity to work with innovative companies and participate in impactful projects. From developing backend services for fintech applications to implementing micro-frontend architectures, each experience has shaped my skills and passion for software engineering. Here's a look at my professional journey so far.
+							Throughout my career, I've had the opportunity to
+							work with innovative companies and participate in
+							impactful projects. From developing backend services
+							for fintech applications to implementing
+							micro-frontend architectures, each experience has
+							shaped my skills and passion for software
+							engineering. Here's a look at my professional
+							journey so far.
 						</div>
 
 						<div className="experience-list">

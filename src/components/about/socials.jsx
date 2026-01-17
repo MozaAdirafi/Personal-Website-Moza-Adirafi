@@ -5,7 +5,6 @@ import {
 	faMedium,
 	faGithub,
 	faLinkedin,
-
 } from "@fortawesome/free-brands-svg-icons";
 
 import INFO from "../../data/user";
@@ -54,7 +53,6 @@ const Socials = () => {
 					<div className="social-text">Follow on LinkedIn</div>
 				</a>
 			</div>
-
 
 			<div className="email">
 				<div className="email-wrapper">

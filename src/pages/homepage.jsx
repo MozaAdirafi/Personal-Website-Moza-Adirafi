@@ -182,7 +182,9 @@ const Homepage = () => {
 											position={exp.position}
 											period={exp.period}
 											location={exp.location}
-											responsibilities={exp.responsibilities}
+											responsibilities={
+												exp.responsibilities
+											}
 										/>
 									</div>
 								))}

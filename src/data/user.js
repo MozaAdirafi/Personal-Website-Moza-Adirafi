@@ -34,8 +34,8 @@ const INFO = {
 				"Developed backend services for savings products using Spring Boot, MySQL/PostgreSQL, and Kafka, working with service-to-service communication via Feign clients and Jenkins for CI/CD pipelines.",
 				"Developed a transfer limit management module and transaction alert mechanisms to support transaction monitoring and risk controls.",
 				"Built a multi-channel notification system supporting email and push notifications for user and transaction events.",
-				"Implemented Internal Tools, an internal dashboard for monitoring user accounts, transactions, notifications, and system configurations."
-			]
+				"Implemented Internal Tools, an internal dashboard for monitoring user accounts, transactions, notifications, and system configurations.",
+			],
 		},
 		{
 			company: "Sprint Asia",
@@ -45,8 +45,8 @@ const INFO = {
 			responsibilities: [
 				"Implemented micro-frontend architecture using React.js for key company products.",
 				"Developed and published custom frontend components as an NPM package, integrating company API services with AXIOS.",
-				"Created and maintained the company's landing pages using WordPress."
-			]
+				"Created and maintained the company's landing pages using WordPress.",
+			],
 		},
 		{
 			company: "Bangkit Academy",
@@ -56,9 +56,9 @@ const INFO = {
 			responsibilities: [
 				"Developed Gestura, a capstone project with a team of seven, an application designed to teach users sign language and encourage them to practice it interactively.",
 				"Set up a cloud infrastructure for Bangkit's Capstone Group Project using Google Cloud Platform's Cloud Run, Compute Engine, Cloud SQL, and Cloud Storage for service deployment.",
-				"Integrated a machine learning model into Express.js-based services using TensorFlow.js for Bangkit's Capstone Group Project."
-			]
-		}
+				"Integrated a machine learning model into Express.js-based services using TensorFlow.js for Bangkit's Capstone Group Project.",
+			],
+		},
 	],
 
 	articles: {
@@ -130,7 +130,7 @@ const INFO = {
 			logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png",
 			linkText: "View Project",
 			link: "https://mofood.vercel.app/",
-			link2:"https://github.com/MozaAdirafi/Mofood_MiniProject2",
+			link2: "https://github.com/MozaAdirafi/Mofood_MiniProject2",
 			linkText2: "View Repository",
 		},
 
@@ -152,7 +152,7 @@ const INFO = {
 			logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png",
 			linkText: "View Project",
 			link: "https://siasistensupremacy-dev.cs.ui.ac.id/",
-			link2:"",
+			link2: "",
 			linkText2: "View Repository",
 		},
 
